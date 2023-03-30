@@ -13,39 +13,44 @@
 
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body>
     <div class="container-fluid p-5 bg-primary text-white text-center">
       <h1>Timed Coding Quiz!</h1>
       <div class="container mt-5">
         <div class="nav justify-content-around">
-              <button type="button" class="btn btn-light my-1">
-                View Highscores!
-              </button>
-              <button type="button" class="btn btn-light my-1">
-                Time Left:
-              </button>
-          </div>
-      </div>
-    </div>
-
-    <div class="container mt-5 px-3">
-      <div class="row">
-        <div class="col-sm-6 mx-auto d-grid">
-          <h3>This is the content of the question being asked?</h3>
-          <button type="button" class="btn btn-outline-primary my-1">
-            Choice 1
+          <button type="button" class="btn btn-light my-1">
+            View Highscores!
           </button>
-          <button type="button" class="btn btn-outline-primary my-1">
-            Choice 2
-          </button>
-          <button type="button" class="btn btn-outline-primary my-1">
-            Choice 3
-          </button>
-          <button type="button" class="btn btn-outline-primary my-1">
-            Choice 4
-          </button>
+          <button type="button" class="btn btn-light my-1"><div class="timer">Time: <span id="time">0</span></div></button>
         </div>
       </div>
     </div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz</h1>
+
+        <button id="start">Start Quiz</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
   </body>
 </html>
