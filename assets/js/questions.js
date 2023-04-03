@@ -10,7 +10,16 @@ var questions = [
     ],
     answer: "Returns the type of a variable.",
   },
-
+  {
+    title: "Objects are enclosed in ____.",
+    choices: ["commas", "curly brackets", "quotes", "parentheses"],
+    answer: "curly brackets",
+  },
+  {
+    title: "What does the 'NaN' value represent in JavaScript?",
+    choices: ["Not a Number", "Null value", "Empty value", "Undefined value"],
+    answer: "Not a Number",
+  },
   {
     title: "Commonly used data types DO NOT include:",
     choices: ["strings", "booleans", "alerts", "numbers"],
