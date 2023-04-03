@@ -4,46 +4,40 @@ This is challenge 4 from the UT Coding Bootcamp (Web APIs: Code Quiz).
 
 ## Description
 
-> Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:  
->   
-> - What was your motivation?  
-> - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")  
-> - What problem does it solve?  
-> - What did you learn?  
+This app is a timed coding quiz that will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript.
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
 
-> What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
-> Provide instructions and examples for use. Include screenshots as needed.
->   
-> To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:  
->   
->   `![alt text](assets/images/screenshot.png)`
+https://austinbq02.github.io/c04-webAPI-code-quiz/
+
+- Navigate to the link above.
+- Press `Start Quiz` to begin. 
+- Keep your eye on the timer!
+- Incorrect answers subtract time, so read carefully!
+
+![quiz](https://user-images.githubusercontent.com/77471738/229219734-c60f97d5-0138-4782-9c4c-886804506d03.jpg)
 
 
 ## Credits
 
-> List your collaborators, if any, with links to their GitHub profiles.
-> 
-> If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-> 
-> If you followed tutorials, include links to those here as well.
 
 Full-Stack Blog - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 Initial HTML & CSS - [w3 Schools Bootstrap 5 Tutorial](https://www.w3schools.com/bootstrap5/index.php)
 
 Bootstrap - https://getbootstrap.com/
+
+UT Coding Bootcamp - Module 4
+
+Connor Bodin - https://github.com/connorbodin
 
 
 
